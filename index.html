@@ -3,36 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Anderson Santiana - Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Tu Nombre</h1>
+        <h1>Anderson Santiana</h1>
         <nav>
             <ul>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <img src="img/tu-foto.jpg" alt="Mi Foto">
-        <p>Mi nombre es Anderson Santiana, tengo 21 años y me gusta mucho la tecnología.</p>
-    </section>
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="images/ft-perfil.jpeg" alt="Foto de perfil de Anderson Santiana">
+            <p>¡Hola! Mi nombre es Anderson Santiana, tengo 21 años y actualmente soy estudiante universitario de Ingeniería en Desarrollo de Software.</p>
+            <p>Me apasiona la tecnología, la programación y aprender sobre nuevas herramientas que puedan mejorar mi crecimiento profesional. Me considero una persona autodidacta, responsable y con muchas ganas de seguir creciendo en el mundo digital.</p>
+            <p>En mi tiempo libre disfruto ver películas, series, TikToks interesantes y aprender sobre temas de tecnología y programación. También me interesa trabajar en proyectos reales que me permitan desarrollar mis habilidades y prepararme para un futuro laboral, preferiblemente en modalidad remota.</p>
+            <p>Estoy enfocado en construir una carrera sólida, mejorar día a día y enfrentar nuevos retos que me ayuden a superarme tanto a nivel profesional como personal.</p>
+        </section>
+        
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>Actualmente he trabajao en proyectos en colaboración con compañeros de la carrera.</p>
-    </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <h3>Cine ULEAM</h3>
+                    <p>Desarrollo de un sistema de gestión para un cine universitario, permitiendo la venta de boletos, programación de funciones y manejo de usuarios.</p>
+                </div>
+                <div class="proyecto">
+                    <h3>Sistema de Gestión de Tareas Personales</h3>
+                    <p>Desarrollo de una aplicación para gestionar tareas personales de forma simple y eficiente, utilizando tecnologías web.</p>
+                </div>
+                <div class="proyecto">
+                    <h3>Sistema de Biblioteca Universitaria</h3>
+                    <p>Desarrollo de un sistema de gestión de biblioteca universitaria con acceso a recursos de cada facultad, utilizando bases de datos distribuidas para asegurar eficiencia y disponibilidad.</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>AndersonSantiana8@gmail.com, redes, etc.</p>
-    </section>
+        
+        
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidad">
+                <label for="python">Python</label>
+                <progress id="python" value="65" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="html">HTML</label>
+                <progress id="html" value="50" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="css">CSS</label>
+                <progress id="css" value="30" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="javascript">JavaScript</label>
+                <progress id="javascript" value="35" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="poo">Programación Orientada a Objetos (POO)</label>
+                <progress id="poo" value="50" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="bases-datos">Bases de Datos Distribuidas</label>
+                <progress id="bases-datos" value="50" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="git">Git/GitHub</label>
+                <progress id="git" value="30" max="100"></progress>
+            </div>
+            
+            <div class="habilidad">
+                <label for="arquitectura">Arquitectura de Software (Microservicios, en la nube)</label>
+                <progress id="arquitectura" value="40" max="100"></progress>
+            </div>
+            <div class="habilidad">
+                <label for="trabajo-equipo">Trabajo en equipo y comunicación</label>
+                <progress id="trabajo-equipo" value="80" max="100"></progress>
+            </div>
+        </section>
+        
+        
+        
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-info">
+                <p><strong>Email:</strong> <a href="mailto:AndersonSantiana8@gmail.com">AndersonSantiana8@gmail.com</a></p>
+                <p><strong>Redes:</strong> 
+                    <a href="https://github.com/SantianaT" target="_blank">GitHub</a> | 
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </section>
+        
+    </main>
 
     <footer>
         <p>© 2025 Anderson Santiana</p>
